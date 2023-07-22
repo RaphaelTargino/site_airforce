@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.Container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+Header nav {
+    background-color: #44e2d9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo img{
+    width: 120px;
+    padding: 16px 16px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 12px;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li :hover {
+    color: black;
+}
+
+Section .Container {
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.Imagens {
+    display: flex;
+}
+
+.Imagens img {
+    width: 350px;
+}
+
+.Imagens1 {
+    margin-top: 50px;
+}
+
+.Imagens1 img {
+    margin-bottom: 16px;
+}
+
+.Imagens2 {
+    margin-top: 50px;
+}
+
+.Imagens2 img {
+    margin-bottom: 16px;
+    margin-left: 20px;
+}
+
+.pagina1 {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.pagina1 h2 {
+    margin-bottom: 20px;
+    font-size: 55px;
+}
+
+.pagina1 h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    width: 455px;
+}
+
+.pagina1 p {
+    line-height: 28px;
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.Botao {
+    margin-left: 62px;
+    margin-top: 50PX;
+}
+
+.Botao a :hover {
+    background-color: #44e2d9;
+    color: black;
+}
+
+.Botao input {
+    width: 300px;
+    padding: 16px 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.Rodape {
+    margin-top: 25px;
+    width: 100%;
+    background-color: #44e2d9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rodape h2 {
+    margin: 60px 0 0 100px;
+}
+
+form {
+    margin: 17px 0 20px 100px;
+}
+
+FORM input {
+    margin-top: 6px;
+    display:block;
+    width: 400px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding-left: 10px;
+}
+
+input :focus {
+    outline-color: white;
+}
+
+FORM button {
+    margin-top: 20px;
+    width: 400px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+form ::placeholder{
+    color: white;
+}
+
+#rodapes{
+    display: block;
+}
+
+.Rodape img{
+    width: 100px;
+}
+
+.Rodape li{
+    display: inline;
+}
+
+.Contatos-Endereços {
+    width: 1280PX;
+    justify-content: space-between;
+    margin-left: 280px;
+    margin-bottom: 50px;
+}
+
+.Contatos-Endereços h2{
+    margin-top: 65px;
+    margin-left: auto;
+}
+
+.Contatos-Endereços img{
+    margin-top: 25px;
+    margin-right: 15px;
+    width: 40px;
+}
+
+.edereco h2 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.Container h1 h2 {
+    font-style: normal;
+}
+
+.Container p {
+    font-family: 'Arvo', serif;
+}
+
+footer {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
